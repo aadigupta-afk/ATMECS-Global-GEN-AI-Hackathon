@@ -1,5 +1,3 @@
-# ATMECS-Global-GEN-AI-Hackathon
-
 # Advanced RAG System and AI-Powered Data Visualizer
 
 This repository contains two separate applications: an advanced Retrieval-Augmented Generation (RAG) system and an AI-powered data visualizer. Both applications leverage large language models (LLMs) and various AI technologies to provide powerful document analysis and data visualization capabilities.
@@ -51,7 +49,7 @@ The AI-powered data visualizer is a Dash application that uses natural language 
 ### How to Run
 To run the AI-powered data visualizer, simply execute the Python file:
 ```
-python visualizer.py
+python Plotly_Visuala.py
 ```
 Then, follow the link provided in the console to access the application in your web browser.
 
@@ -63,7 +61,7 @@ Both applications require various Python libraries and external dependencies. Ma
 pip install -r requirements.txt
 ```
 
-Additionally, ensure that you have the necessary API keys and environment variables set up for the language models and other services used in these applications.
+Additionally, ensure that you have the necessary API keys (Google Gemini 1.5 Flash model and llama cloud api key.) and environment variables set up for the language models and other services used in these applications.
 
 ## Usage
 
